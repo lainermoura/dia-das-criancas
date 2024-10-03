@@ -33,30 +33,10 @@ Antes de começar, você precisará ter o Node.js e o npm instalados em sua máq
 
 4. Acesse a aplicação em `http://localhost:8080`.
 
-## 🎨 Demonstração
-
-Abaixo está uma imagem da interface da aplicação:
-
-![Demonstração da Aplicação](link-para-a-imagem)
-
 ## 📸 Funcionalidades
 
-- **Cards Interativos**: Clique em qualquer card para ver a foto da versão adulta da criança.
-- **Responsividade**: A aplicação é totalmente responsiva, adaptando-se a diferentes tamanhos de tela.
+- **Cards Interativos**: Clique em qualquer card para ver a foto da versão adulta da criança e o nome da pessoa.
 
-## 📄 Contribuição
-
-Sinta-se à vontade para contribuir! Você pode:
-
-1. Abrir issues para relatar bugs ou sugerir melhorias.
-2. Fazer um fork do repositório e enviar pull requests.
-
-## 📬 Contato
-
-Se tiver alguma dúvida ou sugestão, entre em contato:
-
-- Email: seu-email@example.com
-- GitHub: [seu-usuario](https://github.com/seu-usuario)
 
 ---
 
