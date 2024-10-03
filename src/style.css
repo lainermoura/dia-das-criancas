@@ -1,0 +1,169 @@
+/* style.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+#app {
+    /* background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1.5)), url('./assets/fotos/wallpaper.jpg');
+    background-size: cover;
+    background-position: center; */
+}
+
+
+.card-container {
+    position: relative;
+    perspective: 1000px;
+    margin-bottom: 1rem;
+    height: 195px;
+    z-index: 2;
+}
+
+.card {
+    border: none;
+    width: 12rem;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    position: relative;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-face {
+    position: absolute;
+    backface-visibility: hidden;
+    text-align: -webkit-center;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.card-name {
+    text-align: center;
+    margin-top: .8rem;
+    color: rgb(30, 30, 104);
+}
+
+img {
+    display: block;
+    max-width: 92%;
+    height: auto;
+}
+
+/* Definindo as classes de cor */
+.border-color-1 {
+    border: 7px solid #F97A2D;
+}
+
+.border-color-2 {
+    border: 7px solid #5CE1E6;
+}
+
+.border-color-3 {
+    border: 7px solid #C96AEA;
+}
+
+.border-color-4 {
+    border: 7px solid #004275;
+}
+
+.border-color-5 {
+    border: 7px solid #50adf5;
+}
+
+.border-color-6 {
+    border: 7px solid #FF65C3;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 23%;
+    align-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    /* width: 100%; */
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: justify; */
+    color: #014171;
+}
+
+p {
+    background-color: #014171;
+    width: 20%;
+    color: #FFB81B;
+    width: fit-content;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo {
+    height: 300px;
+    width: 310px;
+}
+
+.logo-smf {
+    height: 190px;
+    align-content: center;
+}
+
+.card-container:hover .card-img-top {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    /* cursor: url(https://cur.cursors-4u.net/others/oth-7/oth665.cur), auto !important; */
+}
+
+
+.loading-spinner {
+    /* text-align: center;
+    margin-bottom: 2000px;
+    font-size: 18px; */
+}
+
+@media (max-width: 1536px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p { 
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .logo {
+        height: 150px;
+        width: 150px;
+    }
+
+    h1,
+    p {
+        font-size: 12px;
+        width: max-content;
+    }
+
+
+    .logo-smf {
+        height: 150px;
+    }
+}
