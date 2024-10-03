@@ -1,13 +1,6 @@
 /* style.css */
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-#app {
-    /* background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1.5)), url('./assets/fotos/wallpaper.jpg');
-    background-size: cover;
-    background-position: center; */
-}
-
-
 .card-container {
     position: relative;
     perspective: 1000px;
@@ -98,9 +91,7 @@ header {
 h1 {
     font-size: 2rem;
     font-weight: 700;
-    /* width: 100%; */
     font-family: 'Montserrat', sans-serif;
-    /* text-align: justify; */
     color: #014171;
 }
 
@@ -131,13 +122,6 @@ p {
     transform: scale(1.1);
     transition: transform 0.3s ease;
     /* cursor: url(https://cur.cursors-4u.net/others/oth-7/oth665.cur), auto !important; */
-}
-
-
-.loading-spinner {
-    /* text-align: center;
-    margin-bottom: 2000px;
-    font-size: 18px; */
 }
 
 @media (max-width: 1536px) {
