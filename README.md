@@ -43,7 +43,7 @@ Antes de começar, você precisará ter o Node.js e o npm instalados em sua máq
 A lógica por trás do projeto é simples e eficiente:
 
 1. **Estrutura de Arquivos**: As imagens são organizadas em uma pasta, onde o nome de cada arquivo segue as convenções PascalCase ou camelCase.
-2. **Extração do Nome**: A aplicação analisa o nome do arquivo, separando as partes maiúsculas e minúsculas para formar o nome e sobrenome. Assim, `JoaoSilva.jpg` se torna "João Silva".
+2. **Extração do Nome**: A aplicação analisa o nome do arquivo, separando as partes maiúsculas e minúsculas para formar o nome e sobrenome. Assim, `JoãoSilva.jpg` se torna "João Silva".
 3. **Interatividade**: Ao clicar no card, a imagem adulta e o nome são mostrados, proporcionando uma experiência divertida e nostálgica.
 
 ---
