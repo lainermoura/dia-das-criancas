@@ -17,7 +17,7 @@ Antes de começar, você precisará ter o Node.js e o npm instalados em sua máq
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/projeto-dia-das-criancas.git
+   git clone [https://github.com/seu-usuario/projeto-dia-das-criancas.git](https://github.com/lainermoura/dia-das-criancas.git)
    cd projeto-dia-das-criancas
    ```
 
