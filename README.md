@@ -18,7 +18,6 @@ Antes de começar, você precisará ter o Node.js e o npm instalados em sua máq
 1. Clone o repositório:
    ```bash
    git clone https://github.com/lainermoura/dia-das-criancas.git
-   cd dia-das-criancas
    ```
 
 2. Instale as dependências:
